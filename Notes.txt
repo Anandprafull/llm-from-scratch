@@ -18,7 +18,7 @@ Key Insights
 🌟 Limitless Opportunities: The potential applications of LLMs are vast, encouraging learners to delve deep into the subject for impactful innovations in the AI space.
 
 
-Chapter 2: Pretraining vs Finetuning
+Chapter 2: Steps for bulding llms
 
 📚 Pre-training: Involves training LLMs on vast datasets to understand language and perform various tasks.
 🔍 Fine-tuning: Customizes LLMs for specific applications, enhancing their effectiveness for targeted domains.
@@ -37,3 +37,23 @@ Key Insights
 🔑 High Computational Costs: The significant costs associated with training LLMs (like GPT-3) emphasize the resource-intensive nature of developing advanced AI models, making them accessible primarily to well-funded organizations.
 📑 Importance of Labeling: Fine-tuning requires labeled data, which is critical for achieving high accuracy in specific applications, contrasting with the unlabeled data used during pre-training.
 🏆 Industry Adoption: Successful examples from various sectors illustrate the growing necessity for fine-tuned models, reinforcing their value in real-world applications.
+
+Chapter 3: Transformers their architecture, and their significance in building large language models (LLMs), emphasizing key concepts like attention.
+
+Highlights
+
+🚀 Transformers are essential for modern LLMs.
+📜 The 2017 paper “Attention is All You Need” introduced the Transformer architecture.
+🔍 Transformers utilize an encoder-decoder framework for tasks like translation.
+🧠 Self-attention captures long-range dependencies in text.
+⚙️ GPT and BERT are variations of Transformers, each with distinct functions.
+🌐 Transformers are not limited to language tasks; they also apply to computer vision.
+⚖️ Not all LLMs are based on Transformers; other architectures exist.
+Key Insights
+🔑 Transformer Architecture: Transformers consist of an encoder and decoder, transforming input data into vector embeddings. This architecture is crucial for tasks like translation and natural language understanding.
+🌟 Self-Attention Mechanism: This mechanism allows the model to weigh the importance of words relative to each other, enabling it to consider context for better predictions. This is a key reason for the effectiveness of Transformers.
+📈 BERT vs. GPT: BERT predicts masked words in both directions, making it effective for understanding context. GPT, however, generates text one word at a time, making it optimal for text completion tasks.
+🎯 Application Beyond Language: Transformers are versatile and can also be applied in fields like computer vision, showing their broad applicability beyond just language processing.
+⚙️ Different Types of LLMs: While many modern LLMs utilize Transformer architecture, other models like RNNs and LSTMs also serve as language models, highlighting the diversity in approaches.
+🗺️ Significance of Attention: The concept of attention is vital, as it allows models to focus on relevant context while processing sequences, improving overall performance in various tasks.
+🔄 Evolution of Models: Understanding the differences between models like BERT and GPT helps clarify their specific use cases and strengths, which is essential for effective implementation in real-world applications.
